@@ -1,8 +1,8 @@
 <template>
   <div class="flex flex-wrap gap-4">
-    <Card v-for="(item, index) of items">
+    <Card v-for="(item, index) of items" class="flex-1 min-w-[calc(20%-1rem)] p-2">
       <template #header>
-        <img alt="user header" :src="item.image" />
+        <img alt="user header" :src="item.image" class="m-auto" />
       </template>
       <template #title>{{ item.title }}</template>
       <template #content>
@@ -18,26 +18,12 @@
 </template>
 
 <script setup>
-import { ref } from 'vue'
+import { onMounted, ref } from 'vue'
 
-const items = ref([
-  {
-    image: 'https://picsum.photos/400/200?random=1',
-    title: 'First Post',
-    description: 'This is the description of the first post.',
-    date: '2025-09-03',
-  },
-  {
-    image: 'https://picsum.photos/400/200?random=2',
-    title: 'Second Post',
-    description: 'This is the description of the second post.',
-    date: '2025-09-02',
-  },
-  {
-    image: 'https://picsum.photos/400/200?random=3',
-    title: 'Third Post',
-    description: 'This is the description of the third post.',
-    date: '2025-09-01',
-  },
-])
+const items = ref(null)
+
+onMounted(async () => {
+  const data = await fetch('data.json').then((response) => response.json())
+  items.value = await data['works']
+})
 </script>

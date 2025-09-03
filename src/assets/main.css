@@ -1,6 +1,18 @@
 @import './base.css';
 @import 'tailwindcss';
 
+.p-card {
+  --p-card-background: rgba(33, 87, 54, 0.473);
+  --p-card-color: var(--vt-c-lime);
+}
+.p-card-content {
+  color: var(--vt-c-white-soft);
+}
+
+a {
+  color: var(--vt-c-lime);
+}
+
 @media (min-width: 1024px) {
   body {
     background-color: var(--color-background-black-mute);

@@ -5,10 +5,10 @@ const fadingHeader = 'bg-gradient-to-b from-emerald-600/70 to-emerald-600/0'
 
 <template>
   <header class="w-full py-8 flex" :class="fadingHeader">
-    <nav class="my-auto mx-auto flex gap-4">
-      <RouterLink class="my-auto text-xl font-medium text-lime-300" to="/">Home</RouterLink>
-      <img class="max-w-20" src="/src/assets/logo.svg"></img>
-      <RouterLink class="my-auto text-xl font-medium text-lime-300" to="/about">About</RouterLink>
+    <nav class="my-auto mx-auto flex gap-4 items-center">
+      <RouterLink class="text-xl font-medium" to="/">Home</RouterLink>
+      <img class="w-20 h-auto" src="/src/assets/logo.svg"></img>
+      <RouterLink class="text-xl font-medium" to="/about">About</RouterLink>
     </nav>
   </header>
   <main class="pt-4 px-8">

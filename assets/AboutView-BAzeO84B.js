@@ -1,0 +1,1 @@
+import{_ as s,c as o,o as a,a as t}from"./index-BYsmtOZb.js";const c={},n={class:"about"};function r(l,e){return a(),o("div",n,[...e[0]||(e[0]=[t("h1",null,"This is an about page",-1),t("p",{class:"font-bold"},"Let's add some text to it",-1),t("p",{class:"text-red-800 text-xl"},"test",-1)])])}const i=s(c,[["render",r]]);export{i as default};

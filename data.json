@@ -17,19 +17,16 @@
     {
       "image": "https://picsum.photos/1280/900?random=3",
       "title": "Third Post",
-      "description": "This is the description of the third post.",
-      "date": "2025-09-01"
+      "description": "This is the description of the third post."
     },
     {
       "image": "https://picsum.photos/1000/1000?random=4",
-      "title": "First Post",
       "description": "This is the description of the first post.",
       "date": "2025-09-03"
     },
     {
       "image": "https://picsum.photos/1280/900?random=5",
       "title": "Second Post",
-      "description": "This is the description of the second post.",
       "date": "2025-09-02"
     },
     {

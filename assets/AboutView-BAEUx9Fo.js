@@ -1,0 +1,1 @@
+import{_ as s,c as o,o as n,a as e,F as a}from"./index-CyFVTBqy.js";const r={};function l(d,t){return n(),o(a,null,[t[0]||(t[0]=e("h1",null,"This is an about page",-1)),t[1]||(t[1]=e("p",{class:"font-bold"},"Let's add some text to it",-1)),t[2]||(t[2]=e("p",{class:"text-red-800 text-xl"},"test",-1))],64)}const i=s(r,[["render",l]]);export{i as default};

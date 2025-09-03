@@ -4,9 +4,9 @@
       <template #header>
         <img alt="user header" :src="item.image" class="m-auto" />
       </template>
-      <template #title>{{ item.title }}</template>
-      <template #content>
-        <p class="m-0">
+      <template #title v-if="item.title">{{ item.title }}</template>
+      <template #content v-if="item.description">
+        <p>
           {{ item.description }}
         </p>
       </template>

@@ -13,6 +13,13 @@ a {
   color: var(--vt-c-lime);
 }
 
+h1 {
+  width: 100%;
+  font-size: xx-large;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
 @media (min-width: 1024px) {
   body {
     background-color: var(--color-background-black-mute);

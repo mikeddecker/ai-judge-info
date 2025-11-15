@@ -7,6 +7,8 @@ const info = computed(() => about.value ? about.value['info'] : '')
 const phone = computed(() => about.value ? about.value['phone'] : '')
 const email = computed(() => about.value ? about.value['email'] : '')
 
+const placeItems = 'center'
+
 onMounted(async () => {
   about.value = await fetch('data.json').then((response) =>
     response.json().then((value) => value['about']),
@@ -15,9 +17,9 @@ onMounted(async () => {
 </script>
 
 <template>
-  <div class="w-250 place-items-center">
-    <h1>About {{ name }}</h1>
-    <img :src="about ? about['picture'] : 'me'" class="w-40"></img>
+  <div class="container w-250 place-items-center flex flex-wrap">
+    <h1 class="">{{ name }}</h1>
+    <img :src="about ? about['picture'] : 'me'" class="w-200"></img>
     <p>{{ info }}</p>
     <p>{{ email }}</p>
     <p>{{ phone }}</p>
@@ -26,6 +28,9 @@ onMounted(async () => {
 
 <style>
 @media (min-width: 1024px) {
+  .container * {
+    width: 100%;
+  }
 }
 </style>
 

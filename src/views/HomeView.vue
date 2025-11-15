@@ -5,7 +5,7 @@
       class="flex-1 min-w-full sm:min-w-[calc(50%-1rem)] lg:min-w-[calc(20%-1rem)] p-2"
     >
       <template #header>
-        <img alt="user header" :src="item.image" class="m-auto" />
+        <img alt="user header" :src="'src/assets/' + item.image" class="m-auto" />
       </template>
       <template #title v-if="item.title">{{ item.title }}</template>
       <template #content v-if="item.description">

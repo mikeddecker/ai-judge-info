@@ -3,58 +3,58 @@
     "name": "Mike De Decker",
     "phone": "+32 478 09 08 59",
     "email": "mikeddecker@hotmail.com",
-    "picture": "https://scontent.fbru5-1.fna.fbcdn.net/v/t39.30808-6/485045135_4086514125005661_1916975563335621021_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=1oUpzM-h9JAQ7kNvwFOGhDa&_nc_oc=AdkFkrhqy-fuMFI-9aPPhvdZTME6ExIyToxwWsTU_MybaKCxnyOXdnaVgxTAz6eSvBrUSj3bvCjYCXpO9MSIB1cE&_nc_zt=23&_nc_ht=scontent.fbru5-1.fna&_nc_gid=lw7d6RigPuRkg8AkMVZ0WQ&oh=00_AfYYq8FV6dyTsaykREZdlOPfMD4QY3P1R6Jq2rdvtgRyxw&oe=68C1BFA0",
+    "picture": "src/assets/mike.png",
     "info": "I enjoy building (web)applications, working with data and machine learning models. The past months I especially enjoyed creating a AI judge assistant which recognizes jump rope skills from video footage."
   },
   "events": [],
   "works": [
     {
-      "image": "https://picsum.photos/1280/900?random=1",
+      "image": "crop.jpg",
       "title": "First Post",
       "description": "This is the description of the first post. This is the description of the first post.This is the description of the first post.This is the description of the first post.This is the description of the first post.",
       "date": "2025-09-03"
     },
     {
-      "image": "https://picsum.photos/1280/900?random=2",
+      "image": "drillster.png",
       "title": "Second Post",
       "description": "This is the description of the second post.",
       "date": "2025-09-02"
     },
     {
-      "image": "https://picsum.photos/1280/900?random=3",
+      "image": "f1.png",
       "title": "Third Post",
       "description": "This is the description of the third post."
     },
     {
-      "image": "https://picsum.photos/1000/1000?random=4",
+      "image": "mike.png",
       "description": "This is the description of the first post.",
       "date": "2025-09-03"
     },
     {
-      "image": "https://picsum.photos/1280/900?random=5",
+      "image": "judges-cine.jpg",
       "title": "Second Post",
       "date": "2025-09-02"
     },
     {
-      "image": "https://picsum.photos/1280/900?random=6",
+      "image": "drillster.png",
       "title": "Third Post",
       "description": "This is the description of the third post.",
       "date": "2025-09-01"
     },
     {
-      "image": "https://picsum.photos/800/700?random=7",
+      "image": "f1.png",
       "title": "First Post",
       "description": "This is the description of the first post.",
       "date": "2025-09-03"
     },
     {
-      "image": "https://picsum.photos/800/700?random=2",
+      "image": "judges-cine.jpg",
       "title": "Second Post",
       "description": "This is the description of the second post.",
       "date": "2025-09-02"
     },
     {
-      "image": "https://community.geant.org/wp-content/webp-express/webp-images/uploads/2025/06/FTP25_group_photo.jpg.webp",
+      "image": "mike.png",
       "title": "TNC25 Future Talent Program",
       "description": "In june 2025 I've been selected to present my AI judge assistant in a Lightning Talk for the GEANT community.",
       "date": "2025-09-01"
